@@ -1,0 +1,119 @@
+.shield img{
+    height: 30%;
+    transition: 0.5s;
+}
+
+.shield p{
+    margin-right: 10%;
+    margin-left: 10%;
+    
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.shield{
+    width: 32%;
+    height: 72%;
+    transform: translateY(5%);
+    background: rgba(255, 255, 255, 0.3); 
+    border: 1px solid rgba(0, 0, 0); 
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px); 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 12px; 
+    flex-direction: column;
+}
+
+#tanyaa {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pattern {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.taro {
+    width: 90px;
+    height: 80px;
+    background-color: #f0f0f0;
+    border: 2px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #333;
+}
+
+
+
+.answer {
+    width: 90px;
+    height: 80px;
+    background-color: #123064;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: grab;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.leftRight .bottomForGames{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.timer , .loveBar , .scoreBar , .checkBox{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.scoreBar p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin: 0;
+}
+.scoreBar h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+@media (max-width: 768px) {
+   
+    header {
+        height: 15%; 
+    }
+
+    header h1 {
+        font-size: 16px; 
+        margin-right: 10px; 
+    }
+
+    header img {
+        height: auto; 
+        max-height: 50px; 
+        padding-left: 10px; 
+    }
+
+}
+

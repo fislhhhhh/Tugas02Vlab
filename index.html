@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/indexc.css">
+  <link rel="stylesheet" href="/page2c.css">
+  <link rel="stylesheet" href="/loginPagec.css">
+  <script type="module" src="regist.js" defer></script>
+  <script type="module" src="login.js" defer></script>
+  <title>ImunWar</title>
+</head>
+<body>
+    <header>
+        <img src="img/logocompre.png" onclick="window.location.href='index.html';" alt="">
+       
+    </header>
+    <section class="leftRight">
+        <div class="upper">
+            <div class="rightSide" id="loginSide">
+                <article class="pilihan" id="loginKotak">
+                    <div class="wrapper" id="loginWrap">
+                        
+                        <h2>Login</h2>
+                        <form action="#">
+                            <div class="input-box" id="unameBox">
+                                <span><img id="emailIcon" src="img/emailre.png" alt=""></span>
+                                <input type="text"  name="email" id="email1" required>
+                                <label for="email">Username / email</label>
+                            </div>
+                            <div class="input-box">
+                                <span><img id="emailIcon" src="img/emailre.png" alt=""></span>
+                                <input type="password"  name="psw" id="psw1" required>
+                                <label for="psw">Password</label>
+                            </div>
+                            <div class="remember-forgot">
+                                <label><input type="checkbox">Remember me</label>
+                                <a href="#">forgot password?</a>
+                            </div>
+                            <div class="forButton">
+                                <button type="button"  class="buttonLog" id="loginButton">Rock n Roll</button>
+                            </div>
+                            <div class="remember-forgot">
+                                <span>Not a warrior yet ?</span>
+                                <a href="#" onclick="toggleContent()"> Sign Up </a>
+                            </div>
+                        </form>
+                    </div>
+                </article>
+            </div>
+            <div class="leftSide" id="signUpSide">
+                <article class="pilihan" id="signUp">
+                    <div class="forDynamic" id="signUpDy">
+                        <img src="img/name.png" alt="">
+                     </div>
+                    <div class="wrapper" id="signUpWrap">
+                        <h2>Sign Up</h2>
+                        <form action="#">
+                            <div class="input-box" id="emailBox2">
+                                <span><img id="emailIcon" src="img/emailre.png" alt=""></span>
+                                <input type="text" name="email" id="email2" required>
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-box" id="unameBox2">
+                                <span><img id="emailIcon" src="img/emailre.png" alt=""></span>
+                                <input type="text" name="uname" id="uname2" required>
+                                <label for="uname">Username</label>
+                            </div>
+                            <div class="input-box" id="passwordBox2">
+                                <span><img id="emailIcon" src="img/emailre.png" alt=""></span>
+                                <input type="password" name="psw" id="psw2" required>
+                                <label for="psw">Password</label>
+                            </div>
+                            <div class="forButton">
+                                <button type="button" class="buttonLog" id="registButton">Rock n Roll</button>
+                            </div>
+                            <div class="remember-forgot">
+                                <span>Already a warrior  ?</span>
+                                <a href="#" onclick="toggleContent()"> Log In </a>
+                            </div>
+                        </form>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="bottom">
+        </div>
+    </section>
+    <script src="loginPageJ.js"> </script>
+</body>
+</html>
